@@ -1,4 +1,6 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Author: Blake Trahan
+
 Description: -------------------
 	blimp
 	- "b limited array"
