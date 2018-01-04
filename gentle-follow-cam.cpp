@@ -329,8 +329,8 @@ void MultiAxisCamera::render_update(const float elapsed_time, float player_yaw,
     }
 
     // Get position on sphere: polar to cartesian
-    float posZ = (radius + radius_offset.current) * cos(pitch.current); // x = r × cos( theta )
-    float posY = (radius + radius_offset.current) * sin(pitch.current); // y = r × sin( theta )
+    float posZ = (radius + radius_offset.current) * cos(pitch.current); // x = r Ã— cos( theta )
+    float posY = (radius + radius_offset.current) * sin(pitch.current); // y = r Ã— sin( theta )
     vector3df position_on_sphere(0, posY, posZ); // Create a positional vector with X=0
 
     // rotate around Y axis the position_on_sphere
